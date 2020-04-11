@@ -34,3 +34,10 @@ if (height >= 150){
 }else{
   heightCond = false;
 }
+
+// Pet Name
+if (petName[petName.length-1] === "y"){
+  petCond = true;
+}else{
+  petCond = false;
+}
