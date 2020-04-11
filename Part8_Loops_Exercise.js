@@ -35,7 +35,18 @@ for (var i = 0; i < 5; i++) {
 
 // METHOD ONE
 // While Loop
-
+var x=0;
+while (x<25) {
+        if (x%2 == 1) {
+                console.log(x);
+        }
+        x=x+1;
+}
 
 // METHOD TWO
 // For Loop
+for (var i = 0; i <=25; i++) {
+        if (i%2 == 1) {
+                console.log(i);
+        }
+}
