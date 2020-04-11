@@ -49,3 +49,5 @@ if (nameCond && ageCond && heightCond && petCond){
 }else{
   console.log("Sorry, nothing to see here.")
 }
+
+//Task completed
