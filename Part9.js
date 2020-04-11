@@ -11,39 +11,3 @@ var nameCond = null
 var ageCond = null
 var heightCond = null
 var petCond = null
-
-// Spy has same first letter for first name and last name.
-if (firstName[0] === lastName[0]){
-  nameCond = true;
-}else {
-  nameCond = false;
-}
-
-// Spy is between Age of 20 and 30 (exclusive)
-if (age > 20 && age <30){
-  ageCond = true;
-}else{
-  ageCond = false;
-}
-
-// Spy is at least 170 cm tall
-if (height >= 150){
-  heightCond = true;
-}else{
-  heightCond = false;
-}
-
-// Pet Name
-if (petName[petName.length-1] === "y"){
-  petCond = true;
-}else{
-  petCond = false;
-}
-
-// Check all four conditions
-if (nameCond && ageCond && heightCond && petCond){
-  // My secret message
-  console.log("Welcome Comrade! You've passed the Spy Test")
-}else{
-  console.log("Sorry, nothing to see here.")
-}
