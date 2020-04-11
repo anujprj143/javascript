@@ -18,3 +18,12 @@ if (firstName[0] === lastName[0]){
 }else {
   nameCond = false;
 }
+
+
+
+// Spy is between Age of 20 and 30 (exclusive)
+if (age > 15 && age <30){
+  ageCond = true;
+}else{
+  ageCond = false;
+}
