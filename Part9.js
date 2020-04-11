@@ -41,3 +41,11 @@ if (petName[petName.length-1] === "y"){
 }else{
   petCond = false;
 }
+
+// Checking  all four conditions
+if (nameCond && ageCond && heightCond && petCond){
+  // My secret message
+  console.log("Welcome Comrade! You've passed the Spy Test")
+}else{
+  console.log("Sorry, nothing to see here.")
+}
