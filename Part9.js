@@ -11,3 +11,10 @@ var nameCond = null
 var ageCond = null
 var heightCond = null
 var petCond = null
+
+// Spy has same first letter for first name and last name.
+if (firstName[0] === lastName[0]){
+  nameCond = true;
+}else {
+  nameCond = false;
+}
