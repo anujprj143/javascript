@@ -27,3 +27,10 @@ if (age > 15 && age <30){
 }else{
   ageCond = false;
 }
+
+// Spy is at least 170 cm tall
+if (height >= 150){
+  heightCond = true;
+}else{
+  heightCond = false;
+}
