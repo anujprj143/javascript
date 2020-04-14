@@ -50,9 +50,12 @@ function monkeyTrouble(aSmile, bSmile) {
 // stringTimes("Hi", 1) → "Hi"
 
 function stringTimes(str, n) {
-
+  s="";
+  for (var i = 0; i < n; i++) {
+    s=s+str;
+   }
+   return s;
 }
-
 // PROBLEM 4: LUCKY SUM
 
 // Given 3 numerical values, a b c, return their sum. However, if one of the values is
