@@ -1,13 +1,4 @@
-// FUNCTION EXERCISES - SOLUTIONS
 
-// Functions are an extremely important part of understanding how to program
-// and they also allow for an ideal way of testing out your general JavaScript
-// knowledge.
-
-// These problem statements are sourced from codingbat.com,
-// a great website to practice your code!
-
-// The problems will gradually get harder and harder.
 
 //
 // PROBLEM 1: SLEEPING IN
@@ -24,7 +15,7 @@
 // sleepIn(false, true) → true
 
 function sleepIn(weekday, vacation) {
-    //Code Goes Here
+    return(!weekday || vacation);
 }
 
 
@@ -59,7 +50,7 @@ function monkeyTrouble(aSmile, bSmile) {
 // stringTimes("Hi", 1) → "Hi"
 
 function stringTimes(str, n) {
-    //Code Goes Here
+    return( )
 }
 
 // PROBLEM 4: LUCKY SUM
