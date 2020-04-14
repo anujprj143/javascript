@@ -33,7 +33,7 @@ function sleepIn(weekday, vacation) {
 // monkeyTrouble(true, false) → false
 
 function monkeyTrouble(aSmile, bSmile) {
-    //Code Goes Here
+  return( !(!aSmile && bSmile) )
 }
 
 
@@ -50,7 +50,7 @@ function monkeyTrouble(aSmile, bSmile) {
 // stringTimes("Hi", 1) → "Hi"
 
 function stringTimes(str, n) {
-    return( )
+    return (aSmile && bSmile) || (!aSmile && !bSmile);
 }
 
 // PROBLEM 4: LUCKY SUM
