@@ -52,6 +52,25 @@
             console.log(roster);
           }
 
+          var start = prompt("Would you like to start the roster web app? y/n");
+          var request = "empty";
+
+          // Now  creating a while loop that will keeps asking for an action (add,remove, display or quit)
+          // Using if and else if statements.. to execute the correct function for each command.
+          if (start === "y") {
+            while (request !== "quit") {
+              request = prompt("Please select an action: add, remove, display, or quit.")
+              if (request === "add") {
+                addNew();
+              }else if (request === "display") {
+                display();
+              }else if (request === "remove") {
+                remove();
+              }
+            }
+          }
+          alert("Thanks for using the Web App! Please refresh the page to start over.")
+
         </script>
       </div>
   </body>
