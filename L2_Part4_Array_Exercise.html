@@ -33,39 +33,11 @@
 
         <!-- <script src='Part4_Array_Exercise_SOLUTION.js'> -->
         <script>
-          alert("Welcome! ")
-          roster = [];
-          function add(){
-            var addNew = prompt("Hey enter what you want to add in the Roster !");
-            roster.push(addNew);
-          }
-          function remove(){
-            var remName = prompt("What name would you like to remove?");
-            var index = roster.indexOf(remName);
-            roster.splice(index,1)
-          }
-          function display(){
-            console.log(roster);
-          }
-          function quit(){
-            return false;
-          }
-          var q = true;
-          while (q) {
-            alert("Enter 1. to addNew\n Enter 2. to remove\n Enter 3. to Display Roster\n Enter 4. to quit.")
-             q = prompt("");
-             if (q ==1) {
-               add();
-             }
-             else if ( q ==2 ) {
-               remove();
-             }else if (q ==3 ) {
-               display();
 
-             }else{
-               q = quit();
-             }
-          }
+          // Create Empty Student Roster Array
+          var roster = []
+
+          
 
         </script>
       </div>
