@@ -42,6 +42,12 @@
             roster.push(newName)
           }
 
+          function remove(){
+            var remName = prompt("What name would you like to remove?");
+            var index = roster.indexOf(remName);
+            roster.splice(index,1)
+          }
+
 
         </script>
       </div>
