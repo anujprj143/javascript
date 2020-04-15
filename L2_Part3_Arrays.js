@@ -123,3 +123,7 @@ function awesomeAdder(name){
 var topics = ["python",'django','science']
 
 topics.forEach(awesomeAdder);
+//Notice the syntax carefully ....
+//argument of the function is itself the array Element ..and also there is no
+//parenthesis after the function
+//the function name is passed inside the function forEach()
