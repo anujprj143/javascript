@@ -19,7 +19,8 @@ var employee = {
   job: "Programmer",
   age: 31,
   nameLen : function(){
-    console.log(employee['name'].length());
+    console.log(employee['name'].length);
+    //console.log(this.name.nameLength);
   }
 }
 
@@ -40,7 +41,14 @@ var employee = {
 // object's values for the key value pairs. For example, it should alert:
 
 // Name is John Smith, Job is Programmer, Age is 31.
-
+var employee = {
+  name: "John Smith",
+  job: "Programmer",
+  age: 31,
+  report : function(){
+    alert("Name is :"+this.name +", Job is :"+ this.job +", age is, "+ this.age);
+  }
+}
 
 
 ///////////////////
