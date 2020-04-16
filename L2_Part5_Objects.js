@@ -78,6 +78,7 @@ var carInfo = {
     alert('Your car info is, make: '+this.make+ " year: "+this.year+ " model:"+this.model)
   }
 };
+//using this keyword makes remove ambiguity when ther are two are more variable with same name
 
 // The "this" keyword can be pretty confusing, and it behaves
 // differently in different situations of use-cases.
