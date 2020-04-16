@@ -111,6 +111,7 @@ times5(5)
 // Now after running the function try calling:
 numInput // Error
 result // Error
+// running out of scope
 
 // Not defined outside the scope of the function!
 
