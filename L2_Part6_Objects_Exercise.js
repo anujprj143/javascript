@@ -11,8 +11,18 @@ var employee = {
   age: 31
 }
 
+
 // Add a method called nameLength that prints out the
 // length of the employees name to the console.
+var employee = {
+  name: "John Smith",
+  job: "Programmer",
+  age: 31,
+  nameLen : function(){
+    console.log(employee['name'].length());
+  }
+}
+
 
 
 ///////////////////
