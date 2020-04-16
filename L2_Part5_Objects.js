@@ -3,8 +3,8 @@
 // Objects are hash tables, they store information in a key-value pair.
 // They are very similar to dictionaries in Python.
 
-// Unlike an array, a Javascript Object does NOT retain order, instead you access
-// the value you want by entering its corresponding key. They can hold a variety of
+// Unlike an array, a Javascript Object does NOT retain order, instead we access
+// the value we want by entering its corresponding key. They can hold a variety of
 // data types, including nested Objects.
 
 // Creating an Object:
@@ -47,10 +47,10 @@ for (var key in carInfo) {
 /// OBJECT METHODS /////
 ///////////////////////
 
-// Besides key-value pairs for normal data types, you can add in methods!
+// Besides key-value pairs for normal data types, we can add in methods!
 
 // Methods are essentially functions that are built into a javascript object.
-// Usually we've called a function and then passed stuff as parameters, now we
+// Usually a function and then passed stuff as parameters, now we
 // will build this function inside of an object, creating a method for that object.
 
 // For Example:
@@ -66,10 +66,10 @@ var carInfo = {
 // Then you can call it!
 carInfo.carAlert()
 
-// But what if you (more realistically) want to actually reference an object's
+// But what if we (more realistically) want to actually reference an object's
 // key-value pairs. For instance, if we want ot include this in our alert?
 
-// You'll need to use the "this" keyword
+// we need to use the "this" keyword
 var carInfo = {
   make: "Toyota",
   year: 1990 ,
