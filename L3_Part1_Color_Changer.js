@@ -1,7 +1,3 @@
-
-
-
-
 // Grab the Header with h1
 var header = document.querySelector("h1")
 
