@@ -8,3 +8,8 @@ $('h1');
 
 // Saving it to variable:
 var x = $('h1');
+
+
+// changing the css properties using variable x:
+x.css("color",'red');
+x.css("background","blue");
