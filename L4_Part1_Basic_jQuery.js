@@ -56,3 +56,17 @@ $('h1').html()
 
 // Changing HTML
 $('h1').html("<em>Now in Italics</em>")
+
+
+
+// ATTRIBUTES and VALUES //
+
+
+// Changing an attribute
+$("input").eq(1).attr('type','checkbox');
+
+// Changing values
+$("input").eq(0).attr('value',"BRAND NEW VALUE");
+
+// Can do this more directly:
+$("input").eq(0).val("cleared up");
