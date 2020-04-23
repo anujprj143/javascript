@@ -24,3 +24,18 @@ var newCSS = {
 }
 //executing object
 x.css(newCSS);
+
+
+// Grabbing multiple returns an array-like object:
+var listItems = $('li');
+
+// Change all items:
+listItems.css("color",'red');
+
+// Grab a particular index item:
+listItems.eq(0).css('color','blue');
+
+listItems.eq(1).css('color','purple');
+
+// LastItem
+listItems.eq(-1).css('background','red');
