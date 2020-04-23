@@ -39,3 +39,20 @@ listItems.eq(1).css('color','purple');
 
 // LastItem
 listItems.eq(-1).css('background','red');
+
+
+///////////////////////
+/// TEXT and HTML ////
+/////////////////////
+
+// Grabbing Text:
+$('h1').text()
+
+// Changing Text:
+$('h1').text("Brand New Text!")
+
+// Grabbing HTML
+$('h1').html()
+
+// Changing HTML
+$('h1').html("<em>Now in Italics</em>")
