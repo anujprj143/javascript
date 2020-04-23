@@ -13,3 +13,14 @@ var x = $('h1');
 // changing the css properties using variable x:
 x.css("color",'red');
 x.css("background","blue");
+
+
+// Multiple CSS properties at once:
+//creating object
+var newCSS = {
+  "color":"white",
+  "background":"blue",
+  "border":"red"
+}
+//executing object
+x.css(newCSS);
