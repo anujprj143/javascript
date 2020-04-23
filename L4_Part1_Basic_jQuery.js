@@ -70,3 +70,19 @@ $("input").eq(0).attr('value',"BRAND NEW VALUE");
 
 // Can do this more directly:
 $("input").eq(0).val("cleared up");
+
+
+
+// CLASSES /////
+
+
+// Add a Class
+$('h2').addClass("turnRed")
+
+// Remove a Class
+$("h2").removeClass("turnRed");
+
+// Toggle the Class on and Off
+$("h3").addClass("turnBlue");
+
+$("h3").toggleClass("turnBlue");
